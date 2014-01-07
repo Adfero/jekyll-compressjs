@@ -1,12 +1,12 @@
 CompressJS
 ==========
 
-This a Jekyll module based off of donaldducky's [CssMinify](https://github.com/donaldducky/jekyll-cssminify) for use with the static site generator [Jekyll](http://jekyllrb.com).
+This a Jekyll module based off of donaldducky's [CssMinify](https://github.com/donaldducky/jekyll-cssminify) for use with the static site generator [Jekyll](http://jekyllrb.com). The module minifies and concatenates _js/main.js and any listed dependencies (see below) as _site/js/main.min.js. This plugin came about because we already liked using [jekyll-sass](https://github.com/noct/jekyll-sass) for CSS, and we could only find minification/concatenation plugins that handled both JS and CSS assets.
 
 ### Requires:
 
 * [jekyll](https://github.com/mojombo/jekyll) `gem install jekyll`
-* [juicer](https://github.com/cjohansen/juicer) `gem install juicer`
+* [juicer](https://github.com/cjohansen/juicer) `gem install juicer` (More on that [here](https://github.com/cjohansen/juicer))
 
 # Installation
 
